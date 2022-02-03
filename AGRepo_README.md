@@ -9,6 +9,6 @@ Then, I went through the CSS and labeled the functions (or lack of) within the c
 There were many CSS redundancies, so I refactored those into consolidated classes and commented out the depracated code. I applied my new classes and ensured the float properties were correctly affecting the onscreen elements.
 
 
-[link to finished refactor assignment IMAGE - Alex Geis](./Assets/01-html-css-git-homework_Alex-Geis_2.3.22.png)
+[link to finished refactor assignment IMAGE - Alex Geis](./assets/images/01-html-css-git-homework_Alex-Geis_2.3.22.png)
 
 [link to finished refactor assignment REPO - Alex Geis](https://alexgeis.github.io/Denver-Homework-1/)
