@@ -1,0 +1,270 @@
+/* Universal Selector, applying 0 padding and margin to all elements */
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	scroll-behavior: smooth;
+}
+
+/* body element Selector, applying background color of off white */
+body {
+	background-color: #d9dcd6;
+}
+
+/* header element Selector, applying background color of slightly blue, adding 20 px padding on all sides, text color of white, and adding font family */
+header {
+	padding: 20px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	background-color: #2a607c;
+	color: #ffffff;
+}
+
+/* selecing all h1 elements nested within header elements, applying 48px font size and defining the display behavior */
+header h1 {
+	display: inline-block;
+	font-size: 48px;
+}
+
+/* selecing all ".seo" classes nested within h1 elements nested within header elements, applying white-ish text color */
+header h1 .seo {
+	color: #d9dcd6;
+}
+
+/* selecing all nav elements nested within header elements, applying 20px font size, 15px of padding on top, 20px of margin to the right, floating element to the right side of screen and adding font family */
+header nav {
+	padding-top: 15px;
+	margin-right: 20px;
+	float: right;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 20px;
+}
+
+/* selecing all ul elements nested within nav elements nested within header elements, applying list style */
+header nav ul {
+	list-style-type: none;
+}
+
+/* selecing all li elements within ul elements nested within nav elements nested within header elements, applying display value and adding 25px margin to the left */
+header nav ul li {
+	display: inline-block;
+	margin-left: 25px;
+}
+
+/* a tag Selector, applying text color of white, removing any text decoration */
+a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+/* p tag Selector, applying font size of 16px */
+p {
+	font-size: 16px;
+}
+
+/* "hero" class Selector, applying height of 800px, width 100% of parent container, 25px margin on the bottom, adding a background image from a URL and defining the position/size of the image */
+.hero {
+	height: 800px;
+	width: 100%;
+	margin-bottom: 25px;
+	background-image: url("../images/digital-marketing-meeting.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+/* "float-left" class Selector, applying float left propery (moving element to left of parent container), adding 25 px of margin on the right and a max-height of 200px */
+.float-left {
+	float: left;
+	margin-right: 25px;
+	max-height: 200px;
+}
+
+/* "float-right" class Selector, applying float right propery (moving element to right of parent container), adding 25 px of margin on the left*/
+.float-right {
+	float: right;
+	margin-left: 25px;
+}
+
+/* "content" class Selector, applying a width of 75% of parent container, defining the display stlyle, and adding 20 px of margin on the left*/
+.content {
+	width: 75%;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+/* "benefits" class Selector, applying float right property, a clear property to both sides (to designate that the float property does not apply in these areas) ,adding 20 px of padding on all sides ,adding 20 px of margin on the right and a max-height of 200px, a width of 20% of the screen, a height of 100%, adding a font family, and a blue background color */
+.benefits {
+	margin-right: 20px;
+	padding: 20px;
+	clear: both;
+	float: right;
+	width: 20%;
+	height: 100%;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	background-color: #2589bd;
+}
+
+/* "benefit" class Selector, adding 32 px of margin on the bottom and a text color of white*/
+.benefit {
+	margin-bottom: 32px;
+	color: #ffffff;
+}
+
+/* CONSOLIDATED TO .BENEFIT CLASS ABOVE */
+/* .benefit-lead {
+	margin-bottom: 32px;
+	color: #ffffff;
+}
+
+.benefit-brand {
+	margin-bottom: 32px;
+	color: #ffffff;
+}
+
+.benefit-cost {
+	
+} */
+
+/* select all h3 and img elements within the "benefit" class Selector, adding 10 px of margin on the bottom and aligning text to the center*/
+.benefit h3,
+.benefit img {
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+/* below 3 CONSOLIDATED INTO .BENEFIT IMG and .BENEFIT H3 SELECTORS ABOVE */
+/* 
+.benefit h3 {
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.benefit img {
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.benefit-cost h3 {
+	margin-bottom: 10px;
+	text-align: center;
+} */
+
+/* select all img elements within the "benefit" class Selector, defining display style, adding 10 px of margin on the top/bottom and auto margin on the left and right, and a max-width of 150px */
+.benefit img {
+	display: block;
+	margin: 10px auto;
+	max-width: 150px;
+}
+
+/* BELOW 3 CONSOLIDATED INTO .BENEFIT IMG SELECTOR ABOVE */
+/* 
+.benefit-lead img {
+	display: block;
+	margin: 10px auto;
+	max-width: 150px;
+}
+
+.benefit-brand img {
+	display: block;
+	margin: 10px auto;
+	max-width: 150px;
+}
+
+.benefit-cost img {
+	display: block;
+	margin: 10px auto;
+	max-width: 150px;
+} */
+
+/* "main-content" class Selector, adding 20px of margin to the bottom, adding 50px of padding to the bottom, height of 300px, adding a font family, a blue background color and white text */
+.main-content {
+	margin-bottom: 20px;
+	padding: 50px;
+	height: 300px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	background-color: #0072bb;
+	color: #ffffff;
+}
+
+/*  BELOW 3 CONSOLIDATED INTO .MAIN-CONTENT CLASS SELECTOR ABOVE */
+/* 
+.search-engine-optimization {
+	margin-bottom: 20px;
+	padding: 50px;
+	height: 300px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	background-color: #0072bb;
+	color: #ffffff;
+}
+
+.online-reputation-management {
+	margin-bottom: 20px;
+	padding: 50px;
+	height: 300px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	background-color: #0072bb;
+	color: #ffffff;
+}
+
+.social-media-marketing {
+	margin-bottom: 20px;
+	padding: 50px;
+	height: 300px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	background-color: #0072bb;
+	color: #ffffff;
+} */
+
+/* select all img elements within the main elements Selector, adding max-height of 200px */
+main img {
+	max-height: 200px;
+}
+
+/*  BELOW 3 CONSOLIDATED INTO MAIN IMG ELEMENT SELECTOR ABOVE */
+/* 
+.search-engine-optimization img {
+	max-height: 200px;
+}
+
+.online-reputation-management img {
+	max-height: 200px;
+}
+
+.social-media-marketing img {
+	max-height: 200px;
+} */
+
+/* select all h2 elements within the main elements Selector, adding 20px of margin on the bottom, and font-size of 36px */
+main h2 {
+	margin-bottom: 20px;
+	font-size: 36px;
+}
+
+/*  BELOW 3 CONSOLIDATED INTO MAIN H2 ELEMENT SELECTOR ABOVE */
+/* 
+.search-engine-optimization h2 {
+	margin-bottom: 20px;
+	font-size: 36px;
+}
+
+.online-reputation-management h2 {
+	margin-bottom: 20px;
+	font-size: 36px;
+}
+
+.social-media-marketing h2 {
+	margin-bottom: 20px;
+	font-size: 36px;
+} */
+
+/* "footer" class Selector, 30 px of padding on all sides, clear property designates float elements to not be allowed on either side, adding a font family, and aligning the text in the center*/
+.footer {
+	padding: 30px;
+	clear: both;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	text-align: center;
+}
+
+/* select all h2 elements within "footer" class Selector, adding font-size of 20px */
+.footer h2 {
+	font-size: 20px;
+}
